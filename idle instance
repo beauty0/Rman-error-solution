@@ -1,0 +1,37 @@
+SQL*Plus: Release 12.2.0.1.0 Production on Sat Feb 10 19:52:29 2018
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Connected to an idle instance.
+
+SQL> shutdown abort
+ORACLE instance shut down.
+SQL> startup
+ORACLE instance started.
+
+Total System Global Area 1610612736 bytes
+Fixed Size                  8919440 bytes
+Variable Size             520095344 bytes
+Database Buffers         1073741824 bytes
+Redo Buffers                7856128 bytes
+Database mounted.
+Database opened.
+SQL> exit
+Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64
+bit Production
+
+C:\Users\admin>clear
+'clear' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\admin>sqlplus "/as sysdba"
+
+SQL*Plus: Release 12.2.0.1.0 Production on Sat Feb 10 20:18:19 2018
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL>
