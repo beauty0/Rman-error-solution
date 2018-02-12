@@ -1,0 +1,18 @@
+RMAN> backup database;
+<....... output trimmed .......> 
+<....... output trimmed .......> 
+RMAN-00571: ===========================================================
+RMAN-00569: =============== error message stack follows =============== 
+RMAN-00571: ===========================================================
+RMAN-03009: failure of backup command on ORA_DISK_1 channel at
+03/09/2010 02:01:14
+ORA-19602: cannot backup or copy active file in noarchivelog mode
+
+
+
+-------Solution -----
+RMAN> shutdown immediate;
+4> startup mount
+5> backup database;
+6> 
+
